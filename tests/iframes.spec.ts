@@ -4,3 +4,5 @@ import {test, expect} from '@playwright/test';
 
 
  //if you want to locate the element you can use page.frame({name: "kk"})
+
+ await page.goto("");
