@@ -11,4 +11,8 @@ test ('Handle Multiple Dropdown', async({page})=>{
     console.log("number of option", options.length)
 
     await page.waitForTimeout(5000);
+    await page.locator("");
+    await page.locator("");
+    
+
 })
